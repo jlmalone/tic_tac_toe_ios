@@ -455,29 +455,234 @@ final class BlockchainService: ObservableObject {
     
     
     
-    /// Make a move on the 3×3 board.
-    func makeMove(by player: Int, row: UInt8, col: UInt8) async throws {
-        guard let game,
-              let call = game["makeMove"]?(row, col) else { throw Err.noGame }
+//    /// Make a move on the 3×3 board.
+//    func makeMove(by player: Int, row: UInt8, col: UInt8) async throws {
+//        guard let game,
+//              let call = game["makeMove"]?(row, col) else { throw Err.noGame }
+//
+//        let key   = try privKey(player)
+//        let hash  = try await call.send(gasLimit: 500_000, from: key.address).wait()
+//
+//        let rcpt  = try await web3!.eth
+//            .getTransactionReceipt(transactionHash: EthereumData(hash)).wait()
+//
+//        guard rcpt?.status?.quantity == BigUInt(1) else { throw Err.txFail }
+//    }
+    
+    // In BlockchainService.swift
 
-        let key   = try privKey(player)
-        let hash  = try await call.send(gasLimit: 500_000, from: key.address).wait()
+    func makeMove(by player: Int, row: UInt8, col: UInt8) async throws { // No return value needed, throws on error
+        // 1. Ensure game object is ready and get invocation
+        guard let gameInstance = self.game else { // self.game should be the initialized MultiPlayerTicTacToe contract object
+            print("DEBUG: makeMove - Guard failed: self.game object is nil.")
+            throw Err.noGame // Error 1 (noGame)
+        }
+        // Prepare the 'makeMove(uint8,uint8)' contract call with parameters.
+        // This returns 'any SolidityInvocation'.
+        guard let invocation: SolidityInvocation = gameInstance["makeMove"]?(row, col) else { // Explicitly type as SolidityInvocation protocol
+            print("DEBUG: makeMove - Guard failed: Could not create invocation for 'makeMove' with params (\(row), \(col)).")
+            throw Err.noGame // Error 1 (noGame)
+        }
 
-        let rcpt  = try await web3!.eth
-            .getTransactionReceipt(transactionHash: EthereumData(hash)).wait()
+        // 2. Extract the target contract address and the encoded call data
+        //    Use methods/properties available directly on the SolidityInvocation protocol or its handler.
+        guard let transactionTo: EthereumAddress = invocation.handler.address else { // Target address is from the invocation's handler
+             print("DEBUG: makeMove - Guard failed: Invocation handler address is nil (this is gameInstance.address).")
+             throw Err.noGame
+        }
+        guard let transactionData: EthereumData = invocation.encodeABI() else { // Get encoded data using encodeABI() method
+            print("DEBUG: makeMove - Guard failed: Could not encode ABI for 'makeMove' invocation.")
+            throw Err.noGame // Or a more specific encoding error
+        }
+        
+        // 3. Get private key and derived 'from' address
+        let privateKey: EthereumPrivateKey = try privKey(player)
+        let fromAddress: EthereumAddress = privateKey.address
+        
+        print("DEBUG: makeMove - Player \(player + 1) (\(fromAddress.hex(eip55: true))) making move (\(row), \(col)) on Game: \(transactionTo.hex(eip55: true))")
+        print("DEBUG: makeMove - Transaction Data: \(transactionData.hex())")
 
-        guard rcpt?.status?.quantity == BigUInt(1) else { throw Err.txFail }
+        // 4. Manually construct, sign, and send transaction
+        let transactionHash: EthereumData
+        do {
+            print("DEBUG: makeMove - Manually constructing, signing, and sending 'makeMove' transaction...")
+
+            // a. Get Nonce
+            let nonce = try await web3!.eth.getTransactionCount(address: fromAddress, block: .pending).wait()
+            
+            // b. Get Gas Price
+            let gasPrice = try await web3!.eth.gasPrice().wait()
+
+            // c. Estimate Gas Limit
+            //    Create EthereumCall object for estimation using 'to' and 'data' extracted above.
+            let callForEstimation = EthereumCall(
+                from: fromAddress,
+                to: transactionTo,    // Use 'to' address from invocation.handler.address
+                gasPrice: gasPrice,
+                value: EthereumQuantity(quantity: 0), // makeMove is not payable
+                data: transactionData  // Use 'data' from invocation.encodeABI()
+            )
+            print("DEBUG: makeMove -   Estimating gas for call: from=\(fromAddress.hex(eip55: true)), to=\(transactionTo.hex(eip55: true)), data=\(transactionData.hex())")
+            let gasLimit = try await web3!.eth.estimateGas(call: callForEstimation).wait()
+            
+            print("DEBUG: makeMove -   Nonce: \(nonce.quantity), GasPrice: \(gasPrice.quantity), Estimated GasLimit: \(gasLimit.quantity)")
+            
+            // d. Define Chain ID for EIP-155 signing
+            let chainIdBigUInt = useLocal ? BigUInt(cfg("HARDHAT_CHAIN_ID", "31337").replacingOccurrences(of: "L", with: ""))! : BigUInt(cfg("SEPOLIA_CHAIN_ID", "11155111").replacingOccurrences(of: "L", with: ""))!
+            let ethereumChainIdForSigning = EthereumQuantity(quantity: chainIdBigUInt)
+            print("DEBUG: makeMove -   Using Chain ID for signing: \(chainIdBigUInt)")
+            
+            // e. Create the Unsigned EthereumTransaction object using invocation.createTransaction
+            //    This method populates 'to', 'data', etc., based on the invocation and provided params.
+            guard let unsignedTransaction = invocation.createTransaction(
+                nonce: nonce, gasPrice: gasPrice, maxFeePerGas: nil, maxPriorityFeePerGas: nil, gasLimit: gasLimit,
+                from: fromAddress, value: EthereumQuantity(quantity: 0), accessList: [:], transactionType: .legacy
+            ) else {
+                 print("DEBUG: makeMove - Guard failed: Could not create EthereumTransaction from invocation.createTransaction.")
+                 throw Err.noGame // Or more specific error like "encodingError"
+            }
+            print("DEBUG: makeMove -   Unsigned Tx (from invocation.createTransaction): to=\(unsignedTransaction.to?.hex(eip55: true) ?? "nil"), data=\(unsignedTransaction.data.hex())")
+
+            // f. Sign the transaction using the .sign(with:chainId:) method ON the EthereumTransaction object
+            print("DEBUG: makeMove -   Attempting to sign transaction using unsignedTransaction.sign(with: privateKey, chainId: ...)...")
+            let signedTransaction = try unsignedTransaction.sign(
+                with: privateKey,                   // The EthereumPrivateKey object
+                chainId: ethereumChainIdForSigning  // The EthereumQuantity chainId
+            )
+            print("DEBUG: makeMove -   Transaction signed. Signed Tx v: \(signedTransaction.v.quantity), r: \(signedTransaction.r.quantity), s: \(signedTransaction.s.quantity)")
+
+            // g. Send the signed raw transaction
+            print("DEBUG: makeMove -   Sending signed raw transaction...")
+            transactionHash = try await web3!.eth.sendRawTransaction(transaction: signedTransaction).wait()
+            print("DEBUG: makeMove -   sendRawTransaction SUCCEEDED. TxHash: \(transactionHash.hex())")
+        } catch {
+            print("DEBUG: makeMove - FAILED during manual transaction cycle. Error: \(error.localizedDescription)")
+            print("DEBUG: makeMove - Error Details: \(error)")
+            throw error
+        }
+        
+        // 5. Get receipt (using retry helper)
+        print("DEBUG: makeMove - Tx sent (\(transactionHash.hex())), attempting to fetch receipt with retries...")
+        let receiptObject: EthereumTransactionReceiptObject? = try await retryReceiptFetch(
+            txHash: transactionHash, web3Instance: self.web3!.eth, maxAttempts: 5,
+            initialDelaySeconds: 5.0, maxDelaySeconds: 45.0, backoffFactor: 2.0
+        )
+
+        // 6. Guard for successful transaction receipt and status
+        guard let receipt = receiptObject, let status = receipt.status, status.quantity == BigUInt(1) else {
+            print("DEBUG: makeMove - Receipt not found or tx failed on-chain for hash: \(transactionHash.hex()). Status: \(receiptObject?.status?.quantity.description ?? "nil receipt or status")")
+            throw Err.txFail // Error 2 (txFail)
+        }
+
+        // Transaction for move was successful
+        print("DEBUG: makeMove - Transaction for move successful. Hash: \(transactionHash.hex()), Status: 1. Logs count: \(receipt.logs.count)")
+        
+        // Correctly initialize expectedMoveMadeSig
+        let moveMadeEventSignatureHex = "0x10ac166a969b6ae9b140c9d6b88c6c4e565e4fc22f858bf92f1542535f0f161a" // keccak256("MoveMade(address,uint8,uint8)")
+        let expectedMoveMadeSig: EthereumData
+        do {
+            // Use the throwing initializer EthereumData(ethereumValue: String)
+            expectedMoveMadeSig = try EthereumData(ethereumValue: moveMadeEventSignatureHex)
+        } catch {
+            print("DEBUG: makeMove - CRITICAL ERROR: Could not create EthereumData from MoveMade event signature hex '\(moveMadeEventSignatureHex)'. Error: \(error)")
+            // If this fails, we cannot reliably parse MoveMade events.
+            // Depending on requirements, you might throw, or log and continue without specific MoveMade parsing.
+            throw Err.decode // Or a new, more specific error type like "ConfigurationError"
+        }
+        
+        // Filter and print MoveMade logs
+        receipt.logs.filter {
+            $0.address.hex(eip55: true) == transactionTo.hex(eip55: true) && // Compare EIP55 checksummed addresses
+            $0.topics.count > 0 && // Ensure there's at least one topic for the signature
+            $0.topics.first == expectedMoveMadeSig
+        }.enumerated().forEach { index, log in
+            print("DEBUG: makeMove -     MoveMade Log[\(index)]: topics=\(log.topics.map { $0.hex() }), data=\(log.data.hex())")
+        }
+        // No return value needed for makeMove, success is implied by not throwing.
     }
 
-    /// Fetch the board (`address[3][3]` → `[[String]]`)
+//    /// Fetch the board (`address[3][3]` → `[[String]]`)
+//    func board() async throws -> [[String]] {
+//        guard let game,
+//              let call = game["getBoardState"]?() else { throw Err.noGame }
+//
+//        let any = try await call.call().wait()
+//        guard let raw = any as? [[EthereumAddress]] else { throw Err.decode }
+//        return raw.map { $0.map { $0.hex(eip55: false) } }
+//    }
+    
     func board() async throws -> [[String]] {
-        guard let game,
-              let call = game["getBoardState"]?() else { throw Err.noGame }
+        print("DEBUG: service.board() - Attempting to fetch board.")
+        guard let gameInstance = self.game else {
+            print("DEBUG: service.board() - FAILED: self.game object is nil.")
+            throw Err.noGame
+        }
+        guard let call = gameInstance["getBoardState"]?() else {
+            print("DEBUG: service.board() - FAILED: Could not create 'getBoardState' invocation.")
+            throw Err.noGame
+        }
 
-        let any = try await call.call().wait()
-        guard let raw = any as? [[EthereumAddress]] else { throw Err.decode }
-        return raw.map { $0.map { $0.hex(eip55: false) } }
+        print("DEBUG: service.board() - Calling 'getBoardState' on game: \(gameInstance.address?.hex(eip55: true) ?? "N/A")")
+        let resultFromCall = try await call.call().wait() // resultFromCall is [String: Any]? or similar from PromiseKit
+        print("DEBUG: service.board() - 'getBoardState' call.call().wait() returned (type: \(type(of: resultFromCall))): \(String(describing: resultFromCall))")
+
+        // The result from call.call().wait() for a contract call that returns values is typically [String: Any]
+        // where keys are output names (or empty string for single unnamed output).
+        guard let resultDictionary = resultFromCall as? [String: Any] else {
+            print("DEBUG: service.board() - FAILED: Expected a Dictionary from call result, got \(type(of: resultFromCall)).")
+            throw Err.decode
+        }
+
+        // The Solidity function `getBoardState() view returns (address[3][3])` has one unnamed output.
+        // Web3.swift often returns such single, unnamed outputs with an empty string "" as the key.
+        guard let boardDataUntyped = resultDictionary[""] else { // Access the value for the empty string key
+            print("DEBUG: service.board() - FAILED: Could not find board data under the empty string key '\"\"' in the result dictionary. Keys: \(resultDictionary.keys)")
+            throw Err.decode
+        }
+        
+        print("DEBUG: service.board() - Extracted data under key '': \(String(describing: boardDataUntyped)) (type: \(type(of: boardDataUntyped)))")
+
+        // Now, cast this specific data to [[EthereumAddress]]
+        guard let rawBoard = boardDataUntyped as? [[EthereumAddress]] else {
+            print("DEBUG: service.board() - FAILED to cast board data to [[EthereumAddress]]. Actual type of data under key '': \(type(of: boardDataUntyped)).")
+            throw Err.decode // Error 4
+        }
+        
+        // If the cast succeeds, rawBoard is [[EthereumAddress]]
+        let boardHex = rawBoard.map { row in
+            row.map { ethAddr in
+                ethAddr.hex(eip55: false) // Use false for non-checksummed if your emoji func expects lowercase
+            }
+        }
+        print("DEBUG: service.board() - Successfully fetched and decoded board: \(boardHex)")
+        return boardHex
     }
+//    
+//    // BlockchainService.swift
+//    func board() async throws -> [[String]] {
+//        print("DEBUG: service.board() - Attempting to fetch board.") // We should see this log
+//        guard let gameInstance = self.game else {
+//            print("DEBUG: service.board() - FAILED: self.game object is nil.")
+//            throw Err.noGame // Error 1
+//        }
+//        guard let call = gameInstance["getBoardState"]?() else { // This should be a SolidityReadInvocation
+//            print("DEBUG: service.board() - FAILED: Could not create 'getBoardState' invocation.")
+//            throw Err.noGame // Error 1
+//        }
+//
+//        print("DEBUG: service.board() - Calling 'getBoardState' on game: \(gameInstance.address?.hex(eip55: true) ?? "N/A")")
+//        let any = try await call.call().wait() // This makes the RPC call (eth_call)
+//        print("DEBUG: service.board() - 'getBoardState' call returned: \(String(describing: any))") // <<< WHAT DOES THIS PRINT?
+//        
+//        // This is where Err.decode is thrown if the cast fails
+//        guard let raw = any as? [[EthereumAddress]] else {
+//            print("DEBUG: service.board() - FAILED to decode board data. Expected [[EthereumAddress]], got \(type(of: any)). Full data: \(String(describing: any))") // Added full data print
+//            throw Err.decode // Error 4
+//        }
+//        let boardHex = raw.map { row in row.map { addr in addr.hex(eip55: false) } } // Use false for non-checksummed if that's what your emoji func expects
+//        print("DEBUG: service.board() - Successfully fetched and decoded board: \(boardHex)")
+//        return boardHex
+//    }
 
     // ──────────────────────────────────────────────────────────────────────
     // MARK: Private plumbing
@@ -690,6 +895,11 @@ final class BlockchainService: ObservableObject {
     }
     
     func emojiForAddress(_ addr: String) -> String {
+        let lowercasedAddr = addr.lowercased()
+           // Explicitly check for ZERO_ADDRESS (case-insensitive)
+           if lowercasedAddr == ZERO_ADDRESS.lowercased() {
+               return "" // Return an empty string for zero address
+           }
         let emojis = [
             "😀", "🐶", "🌟", "🍕", "🚀",
             "🐍", "🎮", "📚", "🎵", "🌈",
