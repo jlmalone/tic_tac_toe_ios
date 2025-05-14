@@ -7,13 +7,15 @@
 
 import Foundation
 import SwiftUI
-import Web3                  // core client & types
-import Web3ContractABI       // DynamicContract helpers
-import Web3PromiseKit        // PromiseKit → async/await
+import Web3                         // core client & types
+import Web3ContractABI              // DynamicContract helpers
+import Web3PromiseKit               // PromiseKit → async/await
 import BigInt
-import CryptoKit             // for emoji hashing
+import CryptoKit
 
-// MARK: -– simple config helpers
+// ──────────────────────────────────────────────────────────────────────────────
+// MARK: – Simple config helpers
+// ──────────────────────────────────────────────────────────────────────────────
 private let info = Bundle.main.infoDictionary ?? [:]
 private func cfg(_ k: String, _ def: String) -> String {
     (info[k] as? String).flatMap { $0.isEmpty ? nil : $0 } ?? def
@@ -25,101 +27,116 @@ private let PK_TEST   = [cfg("PRIVATE_KEY_PLAYER1","0x00"),
 private let RPC_LOCAL = cfg("LOCAL_RPC_URL",   "http://127.0.0.1:8545")
 private let RPC_TEST  = cfg("SEPOLIA_RPC_URL", "https://sepolia.infura.io/v3/REPLACE_ME")
 
-// MARK: – deployment JSON (adjust keys if your file differs)
-//todo ai. removed your DeploymentAddresses because it exists in another file as:
+// ---------------------------------------------------------------------------
+// PUBLIC constant so UI can check for “draw”
+// ---------------------------------------------------------------------------
+public let ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
 
-//import Foundation
-
-//// This structure matches the layout of your deployment_output_*.json files
-//struct DeploymentAddresses: Codable {
-//    let gameImplementationAddress: String? // Must match JSON key exactly or use CodingKeys
-//    let factoryAddress: String?            // Must match JSON key exactly or use CodingKeys
-//
-//    // If your JSON keys look like "factory_address", uncomment this section:
-//    /*
-//    enum CodingKeys: String, CodingKey {
-//        case gameImplementationAddress = "game_implementation_address" // Example if JSON uses snake_case
-//        case factoryAddress = "factory_address"
-//    }
-//    */
-//}
-
-//this was yours that i removed:
-//struct DeploymentAddresses: Codable { let factoryAddress: String? }
-
-// MARK: – service
+// ──────────────────────────────────────────────────────────────────────────────
+// MARK: – Service
+// ──────────────────────────────────────────────────────────────────────────────
 @MainActor
 final class BlockchainService: ObservableObject {
+    
+    
+    
 
-    // UI-observable
+    // UI-observable state ----------------------------------------------------
     @Published var useLocal = true { didSet { if oldValue != useLocal { reset() } } }
-    @Published var factoryAddress: String? { didSet { buildFactory() } }
-    @Published var currentGameAddress: String? { didSet { buildGame() } }
+    @Published var factoryAddress:     String? { didSet { buildFactory() } }
+    @Published var currentGameAddress: String? { didSet { buildGame()   } }
 
     @Published private(set) var player1 = "–"
     @Published private(set) var player2 = "–"
     @Published private(set) var rpcURL  = "–"
 
-    // internals
+    // internals --------------------------------------------------------------
     private var web3: Web3?
     private var factoryABI: String?
     private var gameABI:    String?
     private var factory:    DynamicContract?
     private var game:       DynamicContract?
 
-    // MARK: init
+    // MARK: init -------------------------------------------------------------
     init() {
         factoryABI = loadABI(named: "TicTacToeFactory")
+        print("DEBUG: factoryABI is \(factoryABI == nil ? "nil" : "loaded")") // <-- ADD THIS
         gameABI    = loadABI(named: "MultiPlayerTicTacToe")
+        print("DEBUG: gameABI is \(gameABI == nil ? "nil" : "loaded")")       // <-- ADD THIS
         reset()
     }
 
-    // MARK: public API ------------------------------------------------------
+    // ──────────────────────────────────────────────────────────────────────
+    // MARK: Public API
+    // ──────────────────────────────────────────────────────────────────────
 
-    /// Deploys a new game via the factory and sets `currentGameAddress`.
-    func createGame(by player: Int = 0) async throws {
+//    /// Deploy a new game via the factory; updates `currentGameAddress`.
+//    func createGame(by player: Int = 0) async throws {
+//        guard let factory,
+//              let call = factory["createGame"]?() else { throw Err.noFactory }
+//
+//        let key   = try privKey(player)
+//        let hash  = try await call.send(gasLimit: nil, from: key.address).wait()
+//
+//        let rcpt  = try await web3!.eth
+//            .getTransactionReceipt(transactionHash: EthereumData(hash)).wait()
+//
+//        // ✅ status.quantity == 1  → success
+//        guard let receipt = rcpt,
+//              receipt.status?.quantity == BigUInt(1) else { throw Err.txFail }
+//
+//        // topic[1] = indexed gameAddress
+//        guard let t1 = receipt.logs.first?.topics[safe: 1] else { throw Err.eventMiss }
+//        currentGameAddress = "0x" + t1.hex().suffix(40)
+//    }
+    
+    /// Deploy a new game via the factory; returns the new game address.
+    func createGame(by player: Int = 0) async throws -> String {
         guard let factory,
-              let invocation = factory["createGame"]?() else { throw Err.noFactory }
-
-        let key  = try privKey(player)
-        let hash = try await invocation.send(gasLimit: nil,
-                                             from: key.address).wait()
-        let rcpt = try await web3!.eth
-            .getTransactionReceipt(transactionHash: EthereumData(hash))
-            .wait()
-        //todo AI fix
-//        /Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/BlockchainService.swift:72:43 Binary operator '==' cannot be applied to operands of type 'EthereumQuantity?' and 'SensoryFeedback'
-        
-        //todo ai can you refer to receipt when it wasnt declared yet??
-
- guard let receipt = rcpt, receipt.status == .success else { throw Err.txFail }
-        
-
-        // topic[1] = indexed gameAddress
-        guard let newAddrTopic = receipt.logs.first?.topics[safe: 1] else { throw Err.eventMiss }
-        currentGameAddress = "0x" + newAddrTopic.hex().suffix(40)
-    }
-
-    /// Makes a move in the current game.
-    func makeMove(by player: Int, row: UInt8, col: UInt8) async throws {
-        guard let game,
-              let invocation = game["makeMove"]?(row, col) else { throw Err.noGame }
+              let invocation = factory["createGame"]?() else {
+            throw Err.noFactory
+        }
 
         let key  = try privKey(player)
         let hash = try await invocation
-            .send(gasLimit: 500_000, from: key.address)
+            .send(gasLimit: nil, from: key.address)
             .wait()
+
         let rcpt = try await web3!.eth
             .getTransactionReceipt(transactionHash: EthereumData(hash))
             .wait()
-        
-        //TODO AI
-        ///Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/BlockchainService.swift:98:28 Binary operator '==' cannot be applied to operands of type 'EthereumQuantity?' and 'SensoryFeedback'
 
-        guard rcpt?.status == .success else { throw Err.txFail }
+        // success is status.quantity == 1
+        guard let receipt = rcpt,
+              receipt.status?.quantity == BigUInt(1) else {
+            throw Err.txFail
+        }
+
+        // parse the indexed `gameAddress` from topic[1]
+        guard let topic1 = receipt.logs.first?.topics[safe: 1] else {
+            throw Err.eventMiss
+        }
+        let newAddr = "0x" + topic1.hex().suffix(40)
+
+        currentGameAddress = newAddr
+        return newAddr
     }
 
-    /// Returns the 3×3 board as lower-case hex addresses.
+    /// Make a move on the 3×3 board.
+    func makeMove(by player: Int, row: UInt8, col: UInt8) async throws {
+        guard let game,
+              let call = game["makeMove"]?(row, col) else { throw Err.noGame }
+
+        let key   = try privKey(player)
+        let hash  = try await call.send(gasLimit: 500_000, from: key.address).wait()
+
+        let rcpt  = try await web3!.eth
+            .getTransactionReceipt(transactionHash: EthereumData(hash)).wait()
+
+        guard rcpt?.status?.quantity == BigUInt(1) else { throw Err.txFail }
+    }
+
+    /// Fetch the board (`address[3][3]` → `[[String]]`)
     func board() async throws -> [[String]] {
         guard let game,
               let call = game["getBoardState"]?() else { throw Err.noGame }
@@ -129,28 +146,88 @@ final class BlockchainService: ObservableObject {
         return raw.map { $0.map { $0.hex(eip55: false) } }
     }
 
-    // MARK: private helpers -------------------------------------------------
+    // ──────────────────────────────────────────────────────────────────────
+    // MARK: Private plumbing
+    // ──────────────────────────────────────────────────────────────────────
 
     private func reset() {
+//        rpcURL = useLocal ? RPC_LOCAL : RPC_TEST
+//        web3   = Web3(rpcURL: rpcURL)
+//
+//        player1 = addr(PKS()[0]) ?? "⛔"
+//        player2 = addr(PKS()[1]) ?? "⛔"
+//
+//        factoryAddress      = deployment()?.factoryAddress
+//        currentGameAddress  = nil
+        
+        
         rpcURL = useLocal ? RPC_LOCAL : RPC_TEST
-        web3   = Web3(rpcURL: rpcURL)                                    // ✅ docs example :contentReference[oaicite:0]{index=0}
+        print("DEBUG: reset() - Determined RPC URL: \(rpcURL)") // <-- ADD THIS
+        web3   = Web3(rpcURL: rpcURL)
+        print("DEBUG: reset() - Web3 initialized. web3 is \(web3 == nil ? "nil" : "NOT nil"). RPC used: \(rpcURL)") // <-- MODIFIED THIS
+
         player1 = addr(PKS()[0]) ?? "⛔"
         player2 = addr(PKS()[1]) ?? "⛔"
 
-        factoryAddress = deployment()?.factoryAddress
-        currentGameAddress = nil
+        factoryAddress      = deployment()?.factoryAddress
+        print("DEBUG: reset() - factoryAddress set to: \(factoryAddress ?? "nil")")
+        currentGameAddress  = nil
     }
 
     private func buildFactory() {
+        
+        print("DEBUG: buildFactory - ENTER. factoryAddress: \(factoryAddress ?? "nil"), factoryABI is \(factoryABI == nil ? "nil" : "loaded")")
+        print("DEBUG: buildFactory - web3 object is \(web3 == nil ? "nil" : "NOT nil") at this point.") // <-- ADD THIS
+        
+//        print("DEBUG: Attempting to build factory. factoryAddress: \(factoryAddress ?? "nil"), factoryABI is \(factoryABI == nil ? "nil" : "loaded")") // <-- ADD THIS
         guard let a = factoryAddress,
               let abi = factoryABI,
               let ea  = try? EthereumAddress(hex: a, eip55: false)
-        else { factory = nil; return }
+        else {
+          
+            print("DEBUG: buildFactory guard failed. factoryAddress: \(factoryAddress ?? "nil"), factoryABI nil? \(factoryABI == nil)")
+            
+            factory = nil; return }
+        
+        // Explicitly check web3 before the call
+        guard let currentWeb3 = web3 else {
+            print("DEBUG: buildFactory - web3 is NIL right before trying to create contract object.") // <-- ADD THIS
+            factory = nil
+            return
+        }
 
-        factory = try? web3?.eth.Contract(
+        factory = try? currentWeb3.eth.Contract( // Use currentWeb3 here
             json: abi.data(using: .utf8)!,
             abiKey: nil,
             address: ea)
+        print("DEBUG: buildFactory - web3.eth.Contract for factory result: \(factory == nil ? "nil" : "SUCCESS")")
+
+
+   
+//        
+//        print("DEBUG: web3.eth.Contract for factory result: \(factory == nil ? "nil" : "SUCCESS")") // <-- ADD THIS
+        
+    }
+    
+    
+    @MainActor // Ensure UI updates are on the main thread if called from UI
+    func checkBlockchainConnection() async -> String {
+        guard let currentWeb3 = web3 else {
+            return "Blockchain Connection Check: FAILED - web3 object is nil"
+        }
+        
+        print("DEBUG: checkBlockchainConnection - Attempting to get block number...")
+        do {
+            let blockNumber = try await currentWeb3.eth.blockNumber().wait() // Uses the PromiseKit extension
+            let message = "Blockchain Connection Check: SUCCESS - Latest block number on \(useLocal ? "LOCAL" : "SEPOLIA") is \(blockNumber)"
+            print("DEBUG: \(message)")
+            return message
+        } catch {
+            let errorMessage = "Blockchain Connection Check: FAILED - Error getting block number: \(error.localizedDescription)"
+            print("DEBUG: \(errorMessage)")
+            print("DEBUG: Underlying error details: \(error)") // Print more details about the error
+            return errorMessage
+        }
     }
 
     private func buildGame() {
@@ -165,9 +242,9 @@ final class BlockchainService: ObservableObject {
             address: ea)
     }
 
-    // ABI & deployment loaders
-    private func loadABI(named name: String) -> String? {
-        guard let url = Bundle.main.url(forResource: name, withExtension: "json"),
+    // ── ABI / deployment helpers ─────────────────────────────────────────
+    private func loadABI(named n: String) -> String? {
+        guard let url = Bundle.main.url(forResource: n, withExtension: "json"),
               let d   = try? Data(contentsOf: url),
               let obj = try? JSONSerialization.jsonObject(with: d) as? [String: Any],
               let arr = obj["abi"],
@@ -185,27 +262,76 @@ final class BlockchainService: ObservableObject {
         return try? JSONDecoder().decode(DeploymentAddresses.self, from: d)
     }
 
-    // key / address helpers
+    // ── key / addr helpers ───────────────────────────────────────────────
     private func PKS() -> [String] { useLocal ? PK_LOCAL : PK_TEST }
-    
-    //todo ai fix
-//    /Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/BlockchainService.swift:190:78 Extraneous argument label 'hex:' in call
 
-    
-    private func privKey(_ idx: Int) throws -> EthereumPrivateKey { try .init(hex: PKS()[idx]) }
-    
-    
-    //todo AI fix same deal
-    
-//    /Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/BlockchainService.swift:196:73 Extraneous argument label 'hex:' in call
+    private func privKey(_ i: Int) throws -> EthereumPrivateKey {
+        try EthereumPrivateKey(hexPrivateKey: PKS()[i])
+    }
 
-    private func addr(_ pk: String) -> String? { try? EthereumPrivateKey(hex: pk).address.hex(eip55: true) }
+    private func addr(_ pk: String) -> String? {
+        try? EthereumPrivateKey(hexPrivateKey: pk).address.hex(eip55: true)
+    }
 
-    // MARK: error plumbing
+    // ── error enum ───────────────────────────────────────────────────────
     enum Err: LocalizedError { case noFactory, noGame, txFail, eventMiss, decode }
+    
+    
+    // ──────────────────────────────────────────────────────────────────────
+    // MARK: Public read helpers  (add just below  board()  in the service)
+    // ──────────────────────────────────────────────────────────────────────
+    func readBool(fnName: String) async throws -> Bool {
+        guard let game,
+              let call = game[fnName]?() else { throw Err.noGame }
+        let any = try await call.call().wait()
+        guard let arr = any as? [Bool], let first = arr.first else { throw Err.decode }
+        return first
+    }
+
+    func readAddress(fnName: String) async throws -> String {
+        guard let game,
+              let call = game[fnName]?() else { throw Err.noGame }
+        let any = try await call.call().wait()
+        guard let arr = any as? [EthereumAddress], let first = arr.first else { throw Err.decode }
+        return first.hex(eip55: false)
+    }
+    
+    func printDerivedAddresses() {
+        print("Player 1:", player1)
+        print("Player 2:", player2)
+        print("Factory:", factoryAddress ?? "nil")
+        print("Game:", currentGameAddress ?? "nil")
+    }
+    
+    func emojiForAddress(_ addr: String) -> String {
+        let emojis = [
+            "😀", "🐶", "🌟", "🍕", "🚀",
+            "🐍", "🎮", "📚", "🎵", "🌈",
+            "🍔", "🧠", "🦄", "💎", "🕹️",
+            "🧊", "⚡", "💡", "🧩", "🎯"
+        ]
+
+        let cleaned = addr
+            .lowercased()
+            .replacingOccurrences(of: "0x", with: "")
+
+        guard let data = cleaned.data(using: .utf8) else {
+            return "❓"
+        }
+
+        let digest = SHA256.hash(data: data)
+        var iterator = digest.makeIterator()
+        let byte = iterator.next() ?? 0
+
+        return emojis[Int(byte) % emojis.count]
+    }
+
+
 }
 
-// MARK: – Promise->async bridge (missing in some Package builds)
+// ──────────────────────────────────────────────────────────────────────────────
+// MARK: – Promise→async bridge (for Web3PromiseKit)
+// ──────────────────────────────────────────────────────────────────────────────
 import PromiseKit
 private extension Promise {
     func wait() async throws -> T {
@@ -216,8 +342,9 @@ private extension Promise {
     }
 }
 
-// MARK: – safe-index helper
+// ──────────────────────────────────────────────────────────────────────────────
+// MARK: – Safe-index helper
+// ──────────────────────────────────────────────────────────────────────────────
 private extension Array {
-    subscript(safe idx: Int) -> Element? { indices.contains(idx) ? self[idx] : nil }
+    subscript(safe i: Int) -> Element? { indices.contains(i) ? self[i] : nil }
 }
-
