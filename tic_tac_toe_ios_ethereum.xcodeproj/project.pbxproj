@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8347ED422DD458B20017CA34 /* Web3 in Frameworks */ = {isa = PBXBuildFile; productRef = 8347ED412DD458B20017CA34 /* Web3 */; };
+		8347ED442DD458B20017CA34 /* Web3ContractABI in Frameworks */ = {isa = PBXBuildFile; productRef = 8347ED432DD458B20017CA34 /* Web3ContractABI */; };
+		8347ED462DD458B20017CA34 /* Web3PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8347ED452DD458B20017CA34 /* Web3PromiseKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8365D4B22DD25D7E00EDB695 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8347ED442DD458B20017CA34 /* Web3ContractABI in Frameworks */,
+				8347ED462DD458B20017CA34 /* Web3PromiseKit in Frameworks */,
+				8347ED422DD458B20017CA34 /* Web3 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +81,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8347ED3F2DD44F060017CA34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8365D4982DD25D7D00EDB695 = {
 			isa = PBXGroup;
 			children = (
 				8365D4A32DD25D7D00EDB695 /* tic_tac_toe_ios_ethereum */,
 				8365D4B42DD25D7E00EDB695 /* tic_tac_toe_ios_ethereumTests */,
 				8365D4BE2DD25D7E00EDB695 /* tic_tac_toe_ios_ethereumUITests */,
+				8347ED3F2DD44F060017CA34 /* Frameworks */,
 				8365D4A22DD25D7D00EDB695 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +129,9 @@
 			);
 			name = tic_tac_toe_ios_ethereum;
 			packageProductDependencies = (
+				8347ED412DD458B20017CA34 /* Web3 */,
+				8347ED432DD458B20017CA34 /* Web3ContractABI */,
+				8347ED452DD458B20017CA34 /* Web3PromiseKit */,
 			);
 			productName = tic_tac_toe_ios_ethereum;
 			productReference = 8365D4A12DD25D7D00EDB695 /* tic_tac_toe_ios_ethereum.app */;
@@ -195,6 +215,9 @@
 			);
 			mainGroup = 8365D4982DD25D7D00EDB695;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8347ED402DD4571B0017CA34 /* XCRemoteSwiftPackageReference "Web3.swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8365D4A22DD25D7D00EDB695 /* Products */;
 			projectDirPath = "";
@@ -399,6 +422,8 @@
 				DEVELOPMENT_TEAM = 44SCLSYCZZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tic-tac-toe-ios-ethereum-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +453,8 @@
 				DEVELOPMENT_TEAM = 44SCLSYCZZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tic-tac-toe-ios-ethereum-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +585,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8347ED402DD4571B0017CA34 /* XCRemoteSwiftPackageReference "Web3.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Boilertalk/Web3.swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.8.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8347ED412DD458B20017CA34 /* Web3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8347ED402DD4571B0017CA34 /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3;
+		};
+		8347ED432DD458B20017CA34 /* Web3ContractABI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8347ED402DD4571B0017CA34 /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3ContractABI;
+		};
+		8347ED452DD458B20017CA34 /* Web3PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8347ED402DD4571B0017CA34 /* XCRemoteSwiftPackageReference "Web3.swift" */;
+			productName = Web3PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8365D4992DD25D7D00EDB695 /* Project object */;
 }
