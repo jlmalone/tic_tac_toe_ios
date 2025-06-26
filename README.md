@@ -1,131 +1,150 @@
-# Tic-Tac-Toe Matrix (iOS Ethereum dApp)
+# Tic-Tac-Toe iOS Ethereum
 
-## Overview
+This is an iOS application that implements a Tic-Tac-Toe game with integration to the Ethereum blockchain.
 
-Tic-Tac-Toe Matrix is an iOS application that brings the classic game of Tic-Tac-Toe to the blockchain. Game state and moves are recorded as transactions on an Ethereum-compatible network (currently supporting local Hardhat development and the Sepolia testnet). This project demonstrates how to build a decentralized application (dApp) on iOS using Swift and interact with smart contracts.
+## Current State
 
-The application allows users to:
-- Connect to the Sepolia testnet (or a local Hardhat node).
-- Create new Tic-Tac-Toe games, which deploys a new game contract via a factory contract.
-- Join existing games using their contract address.
-- View the current game board, with player moves represented by emojis.
-- Make moves, which are submitted as signed transactions to the game contract.
-- See the game status, including whose turn it is and the eventual winner or a draw.
+- Integrates with the Ethereum blockchain for game logic.
 
-## Features
+## Ethereum Integration
 
-- **Decentralized Gameplay:** All game logic and state transitions are handled by smart contracts on the blockchain.
-- **Smart Contract Interaction:** Utilizes the `Web3.swift` library for:
-    - Connecting to Ethereum nodes via RPC.
-    - Reading contract state (e.g., board, game status).
-    - Sending signed transactions for actions like creating games and making moves.
-    - Client-side private key management for signing transactions.
-- **SwiftUI Interface:** A modern, responsive UI built with SwiftUI, styled with a "Matrix" theme.
-- **Network Flexibility:** Supports:
-    - **Sepolia Testnet:** For playing against others on a public test network.
-    - **Local Hardhat Node:** For development and testing.
-- **Event Parsing:** Parses event logs from transaction receipts to retrieve crucial data, such as the address of newly created game contracts.
-- **Robust Transaction Handling:** Implements manual transaction signing and sending (`eth_sendRawTransaction`) and includes a retry mechanism with exponential backoff for fetching transaction receipts.
-
-## Core Technologies & Libraries
-
-- **Swift & SwiftUI:** For the iOS application development.
-- **Web3.swift (version 0.8.8):** The primary library for interacting with the Ethereum blockchain.
-    - `Web3ContractABI`: For working with smart contract ABIs.
-    - `Web3PromiseKit`: For handling asynchronous operations with Promises (bridged to Swift Concurrency `async/await`).
-- **Smart Contracts (Solidity):** (Assumed to be in a separate project/repository)
-    - `TicTacToeFactory.sol`: A factory contract to deploy new game instances.
-    - `MultiPlayerTicTacToe.sol`: The contract handling the actual game logic for a single Tic-Tac-Toe match.
-- **Alchemy:** Used as the RPC provider for connecting to the Sepolia testnet.
-- **Xcode:** The development environment for the iOS application.
-
-## Project Structure (iOS App)
-
-- **`BlockchainService.swift`**: The core service class responsible for all Web3 interactions, including:
-    - Managing network connections (Local/Sepolia).
-    - Loading contract ABIs and deployment addresses.
-    - Initializing contract objects.
-    - Constructing, signing, and sending transactions (`createGame`, `makeMove`).
-    - Fetching and processing transaction receipts and event logs.
-    - Reading contract state (`getBoardState`, `gameEnded`, `winner`).
-    - Handling private keys (loaded from `Info.plist`).
-- **`ContentView.swift`**: The main SwiftUI view that orchestrates the UI, manages app state, and calls `BlockchainService` methods in response to user actions.
-- **`Theme.swift`**: Defines custom SwiftUI styles and colors for the "Matrix" theme.
-- **`DeploymentAddress.swift`**: Codable struct for parsing deployment output JSON files.
-- **`Info.plist` (and `.env` via `update_info_plist.sh` script):** Manages configuration like private keys, RPC URLs, and chain IDs.
-- **ABI JSON Files (`TicTacToeFactory_NoErrorTypes.json`, `MultiPlayerTicTacToe.json`):** Contract ABIs included in the app bundle.
-- **Deployment Output JSON Files (`deployment_output_sepolia_testnet.json`, `deployment_output_hardhat_local.json`):** Store deployed contract addresses for different networks.
-
-## Getting Started
-
-### Prerequisites
-
--   Xcode (latest stable version recommended).
--   An iOS device or Simulator.
--   An Alchemy account and API key for Sepolia (or another Sepolia RPC endpoint).
--   Sepolia ETH in your test accounts (Player 1 and Player 2) for paying gas fees. You can get this from a Sepolia faucet.
--   (For local development) A running Hardhat node.
+The application interacts with the Ethereum blockchain using the `Web3.swift` library.
 
 ### Configuration
 
-1.  **Clone the repository.**
-2.  **Create a `.env` file** in the root of the iOS project directory (`tic_tac_toe_ios_ethereum`). Populate it with your private keys and Alchemy API key. Refer to the `.env.example` file (if provided) or the required keys in `update_info_plist.sh`:
-    ```env
-    PRIVATE_KEY_PLAYER1=YOUR_SEPOLIA_PLAYER1_PRIVATE_KEY_NO_0x_PREFIX
-    PRIVATE_KEY_PLAYER2=YOUR_SEPOLIA_PLAYER2_PRIVATE_KEY_NO_0x_PREFIX
-    SEPOLIA_RPC_URL=YOUR_ALCHEMY_SEPOLIA_RPC_URL_WITH_API_KEY
-    SEPOLIA_CHAIN_ID=11155111
+- **Networks:** Supports both local (Hardhat) and Sepolia testnet.
+- **RPC URLs:** Configured via `LOCAL_RPC_URL` and `SEPOLIA_RPC_URL` in `Info.plist` (or environment variables).
+- **Private Keys:** Player private keys (`PRIVATE_KEY_HARDHAT_0`, `PRIVATE_KEY_HARDHAT_1`, `PRIVATE_KEY_PLAYER1`, `PRIVATE_KEY_PLAYER2`) are loaded from `Info.plist` (or environment variables) for signing transactions. **Note: Storing private keys directly in `Info.plist` is not secure for production applications.**
 
-    # For local Hardhat development
-    PRIVATE_KEY_HARDHAT_0=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
-    PRIVATE_KEY_HARDHAT_1=0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
-    LOCAL_RPC_URL=http://127.0.0.1:8545
-    HARDHAT_CHAIN_ID=31337
-    ```
-3.  **Ensure Smart Contracts are Deployed:**
-    *   Deploy your `TicTacToeFactory` and `MultiPlayerTicTacToe` (implementation contract) to the Sepolia testnet.
-    *   Update `tic_tac_toe_ios_ethereum/deployment_output_sepolia_testnet.json` with the deployed `factoryAddress` (and `gameImplementationAddress` if your factory uses a beacon/proxy pattern).
-    *   For local development, deploy to your Hardhat node and update `tic_tac_toe_ios_ethereum/deployment_output_hardhat_local.json`.
-4.  **Ensure ABI Files are Correct:**
-    *   Place your compiled ABI JSON for `MultiPlayerTicTacToe` as `MultiPlayerTicTacToe.json` in the `tic_tac_toe_ios_ethereum` folder.
-    *   Place your compiled ABI JSON for `TicTacToeFactory` as `TicTacToeFactory.json` in the same folder.
-    *   Run the `modify_abi.sh` script (or manually create `TicTacToeFactory_NoErrorTypes.json` by removing `"type": "error"` entries from `TicTacToeFactory.json`) to generate the ABI compatible with `Web3.swift 0.8.8`.
-5.  **Build Script for Info.plist:**
-    *   The project includes an `update_info_plist.sh` script. Ensure it's executable (`chmod +x update_info_plist.sh`).
-    *   This script is set up as a "Run Script Phase" in Xcode's Build Phases to run before "Compile Sources." It copies values from `.env` to the app's `Info.plist`.
-6.  **Open in Xcode:** Open the `.xcodeproj` or `.xcworkspace` file.
-7.  **Build and Run:** Select your target device/simulator and run the app.
+### Smart Contracts
 
-### How to Play
+- **Factory Contract:** `TicTacToeFactory` (or `TicTacToeFactory_NoErrorTypes`) is used to create new game instances. Its ABI is loaded from `TicTacToeFactory.json` (or `TicTacToeFactory_NoErrorTypes.json`).
+- **Game Contract:** `MultiPlayerTicTacToe` represents an individual game instance. Its ABI is loaded from `MultiPlayerTicTacToe.json`.
+- **Deployment Addresses:** Contract addresses for both local and Sepolia networks are loaded from `deployment_output_hardhat_local.json` and `deployment_output_sepolia_testnet.json` respectively.
 
-1.  The app should start connected to the SEPOLIA network by default (or LOCAL if `useLocal` in `BlockchainService` is initially true).
-2.  Click **"Create Game (P1)"**. This will send a transaction. Wait for confirmation (the UI status will update, and the new game address will appear).
-3.  The game board should load. Initially, it will be empty.
-4.  The current signer is P1. Enter a row (0-2) and column (0-2).
-5.  Click **"Make Move"**. This sends another transaction.
-6.  After the move is confirmed, the board should update.
-7.  To play as P2, click the "Signer: P1..." button to toggle to P2. The displayed address will change. P2 can then make a move.
-8.  Continue until a player wins or the game is a draw.
+### Key Functionalities (`BlockchainService.swift`)
 
-## Current Status & Known Issues
+- **`createGame(by player: Int)`:**
+    - Initiates a new Tic-Tac-Toe game on the blockchain.
+    - Manually constructs, signs, and sends the transaction.
+    - Estimates gas, retrieves nonce, and handles chain ID for signing.
+    - Polls for transaction receipt and verifies on-chain status.
+    - Parses `GameCreated` event logs to extract the new game contract address.
+- **`makeMove(by player: Int, row: UInt8, col: UInt8)`:**
+    - Allows a player to make a move on the game board.
+    - Similar to `createGame`, it constructs, signs, and sends the transaction.
+    - Verifies transaction success and logs `MoveMade` events.
+- **`board()`:**
+    - Reads the current state of the Tic-Tac-Toe board from the blockchain.
+    - Calls the `getBoardState` view function on the game contract.
+    - Decodes the `address[3][3]` return type into a Swift `[[String]]`.
+- **`checkBlockchainConnection()`:**
+    - Verifies connectivity to the configured Ethereum node by fetching the latest block number.
+- **`retry<T>(...)` and `retryReceiptFetch(...)`:**
+    - Helper functions for robust transaction handling, implementing exponential backoff for retrying failed operations or receipt polling.
+- **`loadABI(named: String)`:**
+    - Loads contract ABI JSON from the application bundle.
+- **`deployment()`:**
+    - Loads deployed contract addresses from JSON files based on the selected network.
+- **`privKey(_ i: Int)` and `addr(_ pk: String)`:**
+    - Utility functions for managing private keys and deriving Ethereum addresses.
+- **`emojiForAddress(_ addr: String)`:**
+    - A utility to map Ethereum addresses to emojis for UI representation.
 
--   **Game Creation:** Successfully working on Sepolia. Transactions are client-side signed and sent via `eth_sendRawTransaction`. Receipt fetching includes a retry mechanism.
--   **Board Display:** Successfully decodes and displays the board state after a game is created/joined. Empty cells (Zero Address) are displayed as empty.
--   **Make Move:** The `makeMove` function in `BlockchainService` has been implemented with the same manual signing and sending pattern as `createGame`. UI integration in `ContentView` calls this service method. **Further testing on this flow is the immediate next step.**
--   **Error Handling:** Basic error handling is in place, displaying messages in the UI.
--   **`Web3.swift` Version:** Uses version 0.8.8. This required a workaround for ABI parsing (removing `"type": "error"` entries) as this version had issues with that ABI feature.
+### Error Handling
 
-## Future Enhancements (Potential)
+The `BlockchainService` uses an `Err` enum (`noFactory`, `noGame`, `txFail`, `eventMiss`, `decode`) to categorize and throw specific errors during blockchain interactions.
 
--   Update `Web3.swift` to a newer version to potentially remove ABI workarounds and gain access to newer features/bugfixes.
--   More sophisticated UI/UX for player turns, game over states, and error feedback.
--   Displaying transaction hashes or links to Etherscan.
--   Support for EIP-1559 transactions (currently using legacy type).
--   Local game history or statistics.
--   Improved visual indication of whose turn it is.
+## User Interface (UI) and Game Logic
 
-## Contribution
+- **`TicTacToeiOSApp.swift`:** The application's entry point, which loads the `ContentView`.
+- **`ContentView.swift`:** The main user interface, built with SwiftUI.
+    - **State Management:** Uses `@StateObject` for `BlockchainService` (for blockchain interactions) and `@State` variables for UI-specific data (e.g., `status`, `board`, `rowInput`, `colInput`, `gameAddressInput`, `isLoading`).
+    - **Game Flow:**
+        1. **Network Selection:** Users can toggle between local (Hardhat) and Sepolia testnet.
+        2. **Game Creation/Joining:**
+            - **Create Game:** Player 1 can create a new game instance on the blockchain via the `createGame` function in `BlockchainService`.
+            - **Join Game:** Users can join an existing game by entering its contract address.
+        3. **Making Moves:** Players input row and column (0-2) and submit their move. The `makeMove` function in `BlockchainService` handles the on-chain transaction.
+        4. **Board Display:** The game board is rendered dynamically, displaying emojis for player markers (derived from their Ethereum addresses).
+        5. **Game Status:** The UI updates with status messages, including transaction progress, errors, and game outcomes (win/draw).
+    - **Controls:**
+        - **Network Controls:** Toggle between local and Sepolia networks, and print derived player addresses.
+        - **Factory Controls:** Create a new game or join an existing one.
+        - **Move Controls:** Select current player (signer) and input row/column for moves.
+        - **Debug Controls:** Refresh board state, check `gameEnded` status.
+        - **Diagnostic Controls:** Test blockchain connection.
+    - **Styling:** Uses custom `MatrixTextFieldStyle`, `MatrixButtonStyle`, and `MatrixSecondaryButtonStyle` (defined in `Theme.swift`) to achieve a Matrix-themed aesthetic.
 
-This project is primarily a demonstration and learning tool. Feel free to fork, experiment, and adapt.
+## Game Logic
 
----
+- **On-Chain Logic:** The core game rules (valid moves, win conditions, draw conditions) are enforced by the `MultiPlayerTicTacToe` smart contract on the Ethereum blockchain.
+- **Off-Chain State:** The iOS app fetches the board state from the blockchain and renders it. It also manages local UI state such as current player, input fields, and loading indicators.
+- **Winner Determination:** After each move, the app checks the `gameEnded` and `winner` functions on the smart contract to determine if the game has concluded and who won.
+
+## Wallet Integration
+
+Currently, the application handles wallet integration by directly loading private keys from `Info.plist` (or environment variables) and using `Web3.swift`'s `EthereumPrivateKey` for transaction signing. This approach is used for simplicity in development and testing, but it is **not secure for production applications** as it exposes private keys within the app's bundle.
+
+## Gas Management
+
+Transaction gas management is handled programmatically within `BlockchainService.swift`:
+
+- **Nonce:** Retrieved using `web3!.eth.getTransactionCount`.
+- **Gas Price:** Fetched using `web3!.eth.gasPrice()`.
+- **Gas Limit:** Estimated dynamically using `web3!.eth.estimateGas` based on the transaction's `to` address and `data`.
+
+This ensures that transactions are sent with appropriate gas parameters, though it currently uses a legacy transaction type (`.legacy`) and does not explicitly support EIP-1559 (Type 2) transactions.
+
+## Testing Procedures
+
+Currently, the project lacks a dedicated test suite. Testing has primarily been manual, involving deploying contracts to local Hardhat networks and Sepolia, and interacting with the UI.
+
+## Feature Expansion
+
+Beyond the core Tic-Tac-Toe gameplay on the blockchain, several features could enhance the application:
+
+- **Multiplayer Matchmaking and Lobby System:** Implement a system for players to find and join games, rather than manually sharing contract addresses.
+- **Leaderboards:** Track player statistics (wins, losses, draws) and display a global leaderboard.
+- **NFT Integration:** Explore using NFTs for unique game pieces, player avatars, or in-game achievements.
+- **Custom Game Rules:** Allow players to define custom rules or board sizes.
+- **Spectator Mode:** Enable users to watch ongoing games.
+
+## App Store Submission Guidelines and Compliance
+
+Submitting a blockchain-enabled application to the Apple App Store requires careful consideration of their guidelines, particularly regarding cryptocurrency and NFTs. Key areas to address include:
+
+- **Clear Disclosures:** Transparently inform users about the use of blockchain technology, potential transaction fees (gas), and the immutability of on-chain actions.
+- **In-App Purchases:** If any in-game items or features involve real money, they must adhere to Apple's in-app purchase mechanisms.
+- **Wallet Management:** Ensure that any wallet functionality complies with Apple's security and privacy requirements.
+- **Regulatory Compliance:** Adhere to relevant financial regulations in all target regions.
+
+## Enhanced Security Considerations
+
+Security is paramount for blockchain applications. Key areas for improvement include:
+
+- **Private Key Management:** Transition away from storing private keys directly in the app. Implement secure wallet integration (e.g., WalletConnect) or explore hardware wallet integration.
+- **Smart Contract Audits:** Conduct professional security audits of the `MultiPlayerTicTacToe` and `TicTacToeFactory` smart contracts to identify and mitigate vulnerabilities.
+- **Input Validation:** Implement robust input validation on both the client-side (iOS app) and contract-side to prevent malicious inputs.
+- **Transaction Monitoring:** Implement monitoring for suspicious on-chain activity.
+- **Dependency Security:** Regularly audit third-party libraries and dependencies for known vulnerabilities.
+
+## Performance Optimization
+
+Optimizing performance is crucial for a smooth user experience, especially with blockchain interactions:
+
+- **RPC Call Optimization:** Minimize unnecessary RPC calls and batch requests where possible.
+- **Event Listening:** Efficiently listen for and process blockchain events (e.g., `GameCreated`, `MoveMade`) to update the UI in real-time.
+- **UI Responsiveness:** Ensure the UI remains responsive during blockchain transactions and data fetching.
+- **Gas Efficiency:** Optimize smart contract code for gas efficiency to reduce transaction costs.
+
+## Comprehensive Documentation
+
+Further expand documentation to include:
+
+- Detailed explanations of the game logic flow, including state transitions and win conditions.
+- A breakdown of UI components and their interactions.
+- Best practices for development and deployment, including environment setup (Hardhat, Sepolia).
+- A guide for contributing to the project.
+- Troubleshooting common issues.
+
