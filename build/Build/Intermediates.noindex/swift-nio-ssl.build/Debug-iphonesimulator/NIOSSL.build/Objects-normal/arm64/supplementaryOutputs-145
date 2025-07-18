@@ -1,0 +1,24 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLContext.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLContext.o"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLContext.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLContext.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLContext.swiftdeps"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLContext.d"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLInit.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLInit.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLInit.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLInit.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLInit.d"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLInit.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLErrors.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLErrors.swiftconstvalues"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLErrors.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLErrors.d"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLErrors.o"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLErrors.swiftdeps"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPKCS12Bundle.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLPKCS12Bundle.d"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLPKCS12Bundle.o"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLPKCS12Bundle.swiftdeps"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLPKCS12Bundle.swiftconstvalues"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/SSLPKCS12Bundle.dia"

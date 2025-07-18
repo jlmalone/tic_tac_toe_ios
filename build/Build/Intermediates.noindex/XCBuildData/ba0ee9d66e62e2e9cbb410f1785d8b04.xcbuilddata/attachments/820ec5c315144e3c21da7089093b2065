@@ -1,0 +1,498 @@
+{
+  "" : {
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3-master.dia",
+    "emit-module-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3-master-emit-module.dia",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3-master.swiftdeps"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumBlockObject.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumBlockObject.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumBlockObject.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumBlockObject.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumBlockObject.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumBlockObject.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumBlockObject.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumBlockObject.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumBlockObject~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumCall.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumCall.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumCall.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumCall.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumCall.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumCall.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumCall.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumCall.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumCall~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumData.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumData.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumData.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumData.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumData.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumData.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumData.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumData.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumData~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumLogObject.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumLogObject.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumLogObject.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumLogObject.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumLogObject.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumLogObject.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumLogObject.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumLogObject.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumLogObject~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumQuantity.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantity.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantity.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantity.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantity.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantity.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantity.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantity.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantity~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumQuantityTag.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantityTag.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantityTag.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantityTag.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantityTag.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantityTag.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantityTag.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantityTag.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumQuantityTag~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumSyncStatusObject.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumSyncStatusObject.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumSyncStatusObject.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumSyncStatusObject.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumSyncStatusObject.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumSyncStatusObject.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumSyncStatusObject.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumSyncStatusObject.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumSyncStatusObject~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumTransactionObject.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionObject.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionObject.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionObject.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionObject.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionObject.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionObject.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionObject.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionObject~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumTransactionReceiptObject.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionReceiptObject.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionReceiptObject.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionReceiptObject.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionReceiptObject.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionReceiptObject.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionReceiptObject.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionReceiptObject.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransactionReceiptObject~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumValue.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValue.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValue.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValue.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValue.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValue.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValue.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValue.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValue~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/EthereumValueConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValueConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValueConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValueConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValueConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValueConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValueConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValueConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumValueConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/RPCRequest.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCRequest.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCRequest.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCRequest.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCRequest.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCRequest.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCRequest.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCRequest.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCRequest~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/RPCResponse.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCResponse.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCResponse.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCResponse.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCResponse.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCResponse.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCResponse.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCResponse.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RPCResponse~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Json/Types+EthereumValueConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+EthereumValueConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+EthereumValueConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+EthereumValueConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+EthereumValueConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+EthereumValueConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+EthereumValueConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+EthereumValueConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+EthereumValueConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Providers/Web3Provider.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3Provider.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3Provider.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3Provider.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3Provider.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3Provider.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3Provider.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3Provider.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3Provider~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/RLP/RLPDecoder.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPDecoder.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPDecoder.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPDecoder.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPDecoder.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPDecoder.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPDecoder.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPDecoder.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPDecoder~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/RLP/RLPEncoder.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPEncoder.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPEncoder.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPEncoder.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPEncoder.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPEncoder.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPEncoder.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPEncoder.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPEncoder~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/RLP/RLPItem.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItem.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItem.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItem.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItem.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItem.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItem.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItem.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItem~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/RLP/RLPItemConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItemConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItemConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItemConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItemConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItemConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItemConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItemConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/RLPItemConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/RLP/Types+RLPItemConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+RLPItemConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+RLPItemConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+RLPItemConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+RLPItemConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+RLPItemConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+RLPItemConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+RLPItemConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Types+RLPItemConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/BigUInt+BytesConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BigUInt+BytesConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BigUInt+BytesConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BigUInt+BytesConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BigUInt+BytesConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BigUInt+BytesConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BigUInt+BytesConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BigUInt+BytesConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BigUInt+BytesConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/Bytes+HexString.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+HexString.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+HexString.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+HexString.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+HexString.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+HexString.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+HexString.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+HexString.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+HexString~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/Bytes+SecureRandom.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+SecureRandom.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+SecureRandom.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+SecureRandom.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+SecureRandom.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+SecureRandom.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+SecureRandom.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+SecureRandom.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+SecureRandom~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/Bytes+TrimLeadingZeros.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+TrimLeadingZeros.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+TrimLeadingZeros.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+TrimLeadingZeros.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+TrimLeadingZeros.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+TrimLeadingZeros.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+TrimLeadingZeros.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+TrimLeadingZeros.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+TrimLeadingZeros~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/Bytes+UInt.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+UInt.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+UInt.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+UInt.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+UInt.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+UInt.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+UInt.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+UInt.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Bytes+UInt~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/BytesConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BytesConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BytesConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BytesConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BytesConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BytesConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BytesConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BytesConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/BytesConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/CharacterSet+Hex.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/CharacterSet+Hex.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/CharacterSet+Hex.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/CharacterSet+Hex.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/CharacterSet+Hex.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/CharacterSet+Hex.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/CharacterSet+Hex.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/CharacterSet+Hex.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/CharacterSet+Hex~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/Data+BytesConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Data+BytesConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Data+BytesConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Data+BytesConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Data+BytesConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Data+BytesConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Data+BytesConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Data+BytesConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Data+BytesConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/EthereumUtils.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumUtils.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumUtils.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumUtils.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumUtils.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumUtils.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumUtils.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumUtils.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumUtils~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/Exports+Web3.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Exports+Web3.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Exports+Web3.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Exports+Web3.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Exports+Web3.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Exports+Web3.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Exports+Web3.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Exports+Web3.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Exports+Web3~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/Int+ETH.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Int+ETH.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Int+ETH.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Int+ETH.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Int+ETH.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Int+ETH.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Int+ETH.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Int+ETH.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Int+ETH~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/Secp256k1+CTXCreator.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Secp256k1+CTXCreator.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Secp256k1+CTXCreator.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Secp256k1+CTXCreator.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Secp256k1+CTXCreator.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Secp256k1+CTXCreator.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Secp256k1+CTXCreator.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Secp256k1+CTXCreator.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Secp256k1+CTXCreator~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/String+BytesConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+BytesConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+BytesConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+BytesConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+BytesConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+BytesConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+BytesConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+BytesConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+BytesConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/String+Conversion.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+Conversion.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+Conversion.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+Conversion.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+Conversion.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+Conversion.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+Conversion.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+Conversion.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+Conversion~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/String+HexBytes.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+HexBytes.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+HexBytes.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+HexBytes.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+HexBytes.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+HexBytes.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+HexBytes.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+HexBytes.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/String+HexBytes~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/SynchronizedArray.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedArray.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedArray.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedArray.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedArray.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedArray.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedArray.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedArray.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedArray~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/SynchronizedDictionary.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedDictionary.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedDictionary.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedDictionary.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedDictionary.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedDictionary.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedDictionary.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedDictionary.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/SynchronizedDictionary~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/UInt+BytesRepresentable.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UInt+BytesRepresentable.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UInt+BytesRepresentable.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UInt+BytesRepresentable.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UInt+BytesRepresentable.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UInt+BytesRepresentable.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UInt+BytesRepresentable.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UInt+BytesRepresentable.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UInt+BytesRepresentable~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/UnsignedInteger+BytesConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+BytesConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+BytesConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+BytesConvertible.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+BytesConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+BytesConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+BytesConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+BytesConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+BytesConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Toolbox/UnsignedInteger+Shifting.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+Shifting.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+Shifting.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+Shifting.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+Shifting.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+Shifting.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+Shifting.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+Shifting.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/UnsignedInteger+Shifting~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Transaction/EthereumAddress.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumAddress.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumAddress.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumAddress.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumAddress.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumAddress.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumAddress.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumAddress.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumAddress~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Transaction/EthereumPrivateKey.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPrivateKey.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPrivateKey.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPrivateKey.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPrivateKey.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPrivateKey.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPrivateKey.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPrivateKey.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPrivateKey~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Transaction/EthereumPublicKey.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPublicKey.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPublicKey.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPublicKey.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPublicKey.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPublicKey.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPublicKey.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPublicKey.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumPublicKey~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Transaction/EthereumTransaction.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransaction.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransaction.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransaction.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransaction.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransaction.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransaction.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransaction.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/EthereumTransaction~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/Core/Web3/Web3.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/FoundationHTTP/Web3+HTTPInitializer.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+HTTPInitializer.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+HTTPInitializer.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+HTTPInitializer.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+HTTPInitializer.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+HTTPInitializer.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+HTTPInitializer.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+HTTPInitializer.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+HTTPInitializer~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/FoundationHTTP/Web3+WebSocketInitializer.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+WebSocketInitializer.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+WebSocketInitializer.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+WebSocketInitializer.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+WebSocketInitializer.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+WebSocketInitializer.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+WebSocketInitializer.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+WebSocketInitializer.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3+WebSocketInitializer~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/FoundationHTTP/Web3HttpProvider.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3HttpProvider.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3HttpProvider.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3HttpProvider.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3HttpProvider.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3HttpProvider.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3HttpProvider.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3HttpProvider.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3HttpProvider~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/FoundationHTTP/Web3WebSocketProvider.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3WebSocketProvider.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3WebSocketProvider.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3WebSocketProvider.dia",
+    "index-unit-output-path" : "/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3WebSocketProvider.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3WebSocketProvider.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3WebSocketProvider.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3WebSocketProvider.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3.build/Objects-normal/arm64/Web3WebSocketProvider~partial.swiftmodule"
+  }
+}

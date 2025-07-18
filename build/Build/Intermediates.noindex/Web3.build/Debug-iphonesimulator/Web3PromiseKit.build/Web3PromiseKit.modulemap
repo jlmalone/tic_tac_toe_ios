@@ -1,0 +1,4 @@
+module Web3PromiseKit {
+header "Web3PromiseKit-Swift.h"
+export *
+}

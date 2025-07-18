@@ -1,0 +1,4 @@
+module PromiseKit {
+header "PromiseKit-Swift.h"
+export *
+}

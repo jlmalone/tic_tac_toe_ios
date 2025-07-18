@@ -1,0 +1,18 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-extras/Sources/NIOExtras/HTTP1ProxyConnectHandler.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/HTTP1ProxyConnectHandler.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/HTTP1ProxyConnectHandler.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/HTTP1ProxyConnectHandler.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/HTTP1ProxyConnectHandler.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/HTTP1ProxyConnectHandler.swiftdeps"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming.o"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming.d"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming+ContentLengthHeader.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming+ContentLengthHeader.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming+ContentLengthHeader.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming+ContentLengthHeader.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming+ContentLengthHeader.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/JSONRPCFraming+ContentLengthHeader.swiftconstvalues"

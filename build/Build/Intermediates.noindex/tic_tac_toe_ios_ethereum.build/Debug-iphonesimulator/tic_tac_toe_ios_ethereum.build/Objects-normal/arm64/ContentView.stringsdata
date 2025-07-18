@@ -1,0 +1,176 @@
+{
+  "source": "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Tic-Tac-Toe Matrix",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Creating Game...",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading Board...",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 254
+        }
+      },
+      {
+        "comment": "",
+        "key": "Board not loaded yet. Try Refresh.",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 271
+        }
+      },
+      {
+        "comment": "",
+        "key": "No game joined.",
+        "location": {
+          "startingColumn": 93,
+          "startingLine": 271
+        }
+      },
+      {
+        "comment": "",
+        "key": "LOCAL ✔",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "SEPOLIA ✔",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Print Addrs",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "Factory: %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Game (P1)",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Game Address",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Join",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 155
+        }
+      },
+      {
+        "comment": "",
+        "key": "Game: %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signer: P%lld (%@)",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 200
+        }
+      },
+      {
+        "comment": "",
+        "key": "Row",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 205
+        }
+      },
+      {
+        "comment": "",
+        "key": "Col",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "Make Move",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 243
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 280
+        }
+      },
+      {
+        "comment": "",
+        "key": "🔄 Refresh Board",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 282
+        }
+      },
+      {
+        "comment": "",
+        "key": "gameEnded?",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 288
+        }
+      },
+      {
+        "comment": "",
+        "key": "Test Blockchain Connection",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 305
+        }
+      }
+    ]
+  },
+  "version": 1
+}

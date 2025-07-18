@@ -1,0 +1,42 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BaseSocket.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocket.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocket.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocket.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocket.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocket.d"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPIWindows.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIWindows.o"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIWindows.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIWindows.swiftdeps"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIWindows.d"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIWindows.swiftconstvalues"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/DerivedSources/resource_bundle_accessor.swift":
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/resource_bundle_accessor.d"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/resource_bundle_accessor.dia"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/resource_bundle_accessor.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BaseSocketChannel.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel.o"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel.swiftdeps"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel.d"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel.swiftconstvalues"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPIPosix.swift":
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIPosix.swiftdeps"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIPosix.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIPosix.o"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIPosix.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPIPosix.d"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPICommon.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPICommon.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPICommon.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPICommon.dia"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPICommon.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BSDSocketAPICommon.swiftconstvalues"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BaseSocketChannel+SocketOptionProvider.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel+SocketOptionProvider.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel+SocketOptionProvider.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel+SocketOptionProvider.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel+SocketOptionProvider.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseSocketChannel+SocketOptionProvider.dia"

@@ -1,0 +1,18 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Data Conversion.swift":
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Data Conversion.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Data Conversion.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Data Conversion.swiftdeps"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Data Conversion.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Data Conversion.swiftconstvalues"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Exponentiation.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Exponentiation.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Exponentiation.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Exponentiation.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Exponentiation.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Exponentiation.dia"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Division.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Division.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Division.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Division.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Division.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Division.dia"

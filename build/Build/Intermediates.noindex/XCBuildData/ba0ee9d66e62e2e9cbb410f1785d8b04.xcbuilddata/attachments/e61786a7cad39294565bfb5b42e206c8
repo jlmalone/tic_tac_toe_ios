@@ -1,0 +1,78 @@
+{
+  "" : {
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketKit-master.dia",
+    "emit-module-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketKit-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketKit-master-emit-module.dia",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketKit-master.swiftdeps"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/websocket-kit/Sources/WebSocketKit/Concurrency/WebSocket+Concurrency.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Concurrency.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Concurrency.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Concurrency.dia",
+    "index-unit-output-path" : "/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Concurrency.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Concurrency.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Concurrency.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Concurrency.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Concurrency~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/Exports.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/Exports.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/Exports.dia",
+    "index-unit-output-path" : "/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/Exports.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/Exports.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/Exports.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/Exports.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/Exports~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/websocket-kit/Sources/WebSocketKit/HTTPUpgradeRequestHandler.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/HTTPUpgradeRequestHandler.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/HTTPUpgradeRequestHandler.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/HTTPUpgradeRequestHandler.dia",
+    "index-unit-output-path" : "/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/HTTPUpgradeRequestHandler.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/HTTPUpgradeRequestHandler.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/HTTPUpgradeRequestHandler.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/HTTPUpgradeRequestHandler.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/HTTPUpgradeRequestHandler~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Connect.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Connect.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Connect.dia",
+    "index-unit-output-path" : "/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Connect.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Connect.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Connect.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Connect.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket+Connect~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket.dia",
+    "index-unit-output-path" : "/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocket~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketClient.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketClient.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketClient.dia",
+    "index-unit-output-path" : "/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketClient.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketClient.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketClient.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketClient.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketClient~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketHandler.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketHandler.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketHandler.dia",
+    "index-unit-output-path" : "/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketHandler.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketHandler.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketHandler.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketHandler.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/websocket-kit.build/Debug-iphonesimulator/WebSocketKit.build/Objects-normal/arm64/WebSocketHandler~partial.swiftmodule"
+  }
+}

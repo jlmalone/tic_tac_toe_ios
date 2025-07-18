@@ -1,0 +1,4 @@
+module Web3ContractABI {
+header "Web3ContractABI-Swift.h"
+export *
+}

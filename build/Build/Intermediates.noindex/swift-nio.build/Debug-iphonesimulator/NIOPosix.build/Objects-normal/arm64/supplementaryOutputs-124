@@ -1,0 +1,42 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/BaseStreamSocketChannel.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseStreamSocketChannel.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseStreamSocketChannel.swiftconstvalues"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseStreamSocketChannel.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseStreamSocketChannel.swiftdeps"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/BaseStreamSocketChannel.d"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/GetaddrinfoResolver.swift":
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/GetaddrinfoResolver.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/GetaddrinfoResolver.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/GetaddrinfoResolver.swiftdeps"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/GetaddrinfoResolver.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/GetaddrinfoResolver.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/FileDescriptor.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/FileDescriptor.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/FileDescriptor.swiftdeps"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/FileDescriptor.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/FileDescriptor.dia"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/FileDescriptor.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Errors+Any.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Errors+Any.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Errors+Any.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Errors+Any.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Errors+Any.swiftdeps"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Errors+Any.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/Bootstrap.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Bootstrap.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Bootstrap.d"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Bootstrap.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Bootstrap.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/Bootstrap.dia"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/ControlMessage.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/ControlMessage.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/ControlMessage.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/ControlMessage.dia"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/ControlMessage.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/ControlMessage.d"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOPosix/DatagramVectorReadManager.swift":
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/DatagramVectorReadManager.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/DatagramVectorReadManager.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/DatagramVectorReadManager.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/DatagramVectorReadManager.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOPosix.build/Objects-normal/arm64/DatagramVectorReadManager.d"

@@ -1,0 +1,48 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/RecvByteBufferAllocator.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/RecvByteBufferAllocator.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/RecvByteBufferAllocator.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/RecvByteBufferAllocator.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/RecvByteBufferAllocator.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/RecvByteBufferAllocator.swiftdeps"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOPooledRecvBufferAllocator.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.d"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.swiftdeps"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.o"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.dia"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOCloseOnErrorHandler.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCloseOnErrorHandler.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCloseOnErrorHandler.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCloseOnErrorHandler.swiftdeps"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCloseOnErrorHandler.swiftconstvalues"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCloseOnErrorHandler.dia"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOLoopBound.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.dia"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.swiftdeps"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/MulticastChannel.swift":
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/MulticastChannel.swiftdeps"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/MulticastChannel.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/MulticastChannel.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/MulticastChannel.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/MulticastChannel.dia"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOScheduledCallback.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOSendable.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.d"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.o"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.swiftconstvalues"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOAny.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOAny.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOAny.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOAny.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOAny.o"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOAny.swiftdeps"

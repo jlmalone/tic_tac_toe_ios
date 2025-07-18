@@ -1,0 +1,18 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-atomics/Sources/Atomics/Protocols/AtomicValue.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicValue.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicValue.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicValue.swiftdeps"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicValue.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicValue.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-atomics/Sources/Atomics/Protocols/AtomicStorage.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicStorage.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicStorage.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicStorage.dia"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicStorage.o"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicStorage.swiftdeps"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-atomics/Sources/Atomics/Protocols/AtomicReference.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicReference.o"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicReference.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicReference.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicReference.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-atomics.build/Debug-iphonesimulator/Atomics.build/Objects-normal/arm64/AtomicReference.swiftdeps"

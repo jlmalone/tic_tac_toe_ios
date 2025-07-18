@@ -1,0 +1,18 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Shifts.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Shifts.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Shifts.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Shifts.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Shifts.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Shifts.swiftconstvalues"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Square Root.swift":
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Square Root.swiftdeps"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Square Root.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Square Root.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Square Root.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Square Root.dia"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Random.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Random.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Random.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Random.swiftdeps"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Random.swiftconstvalues"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Random.dia"

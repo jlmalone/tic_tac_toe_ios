@@ -1,0 +1,18 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/ContractABI/ABI/ABIEncoder.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/ABIEncoder.swiftconstvalues"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/ABIEncoder.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/ABIEncoder.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/ABIEncoder.swiftdeps"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/ABIEncoder.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/ContractABI/ABI/SolidityTuple.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/SolidityTuple.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/SolidityTuple.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/SolidityTuple.swiftdeps"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/SolidityTuple.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/SolidityTuple.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/Web3.swift/Sources/ContractABI/ABI/Eth+ABI.swift":
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/Eth+ABI.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/Eth+ABI.d"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/Eth+ABI.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/Eth+ABI.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/Web3.build/Debug-iphonesimulator/Web3ContractABI.build/Objects-normal/arm64/Eth+ABI.swiftdeps"

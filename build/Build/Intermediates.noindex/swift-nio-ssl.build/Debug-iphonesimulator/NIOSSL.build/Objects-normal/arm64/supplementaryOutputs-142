@@ -1,0 +1,24 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-ssl/Sources/NIOSSL/LinuxCABundle.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/LinuxCABundle.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/LinuxCABundle.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/LinuxCABundle.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/LinuxCABundle.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/LinuxCABundle.o"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLHandler.swift":
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler.d"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler.o"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler.swiftconstvalues"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLHandler+Configuration.swift":
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler+Configuration.dia"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler+Configuration.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler+Configuration.d"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler+Configuration.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLHandler+Configuration.swiftdeps"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLClientHandler.swift":
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLClientHandler.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLClientHandler.o"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLClientHandler.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLClientHandler.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-ssl.build/Debug-iphonesimulator/NIOSSL.build/Objects-normal/arm64/NIOSSLClientHandler.swiftdeps"

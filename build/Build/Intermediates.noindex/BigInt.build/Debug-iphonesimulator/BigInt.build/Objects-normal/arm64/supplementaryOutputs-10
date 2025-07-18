@@ -1,0 +1,18 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Floating Point Conversion.swift":
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Floating Point Conversion.dia"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Floating Point Conversion.swiftdeps"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Floating Point Conversion.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Floating Point Conversion.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Floating Point Conversion.d"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Hashable.swift":
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Hashable.swiftdeps"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Hashable.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Hashable.d"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Hashable.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Hashable.swiftconstvalues"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/GCD.swift":
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/GCD.dia"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/GCD.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/GCD.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/GCD.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/GCD.swiftdeps"

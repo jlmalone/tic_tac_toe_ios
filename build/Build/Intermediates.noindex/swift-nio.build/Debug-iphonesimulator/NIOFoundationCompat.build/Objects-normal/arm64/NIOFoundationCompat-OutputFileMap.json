@@ -1,0 +1,48 @@
+{
+  "" : {
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/NIOFoundationCompat-master.dia",
+    "emit-module-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/NIOFoundationCompat-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/NIOFoundationCompat-master-emit-module.dia",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/NIOFoundationCompat-master.swiftdeps"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOFoundationCompat/ByteBuffer-foundation.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/ByteBuffer-foundation.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/ByteBuffer-foundation.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/ByteBuffer-foundation.dia",
+    "index-unit-output-path" : "/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/ByteBuffer-foundation.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/ByteBuffer-foundation.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/ByteBuffer-foundation.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/ByteBuffer-foundation.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/ByteBuffer-foundation~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOFoundationCompat/Codable+ByteBuffer.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/Codable+ByteBuffer.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/Codable+ByteBuffer.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/Codable+ByteBuffer.dia",
+    "index-unit-output-path" : "/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/Codable+ByteBuffer.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/Codable+ByteBuffer.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/Codable+ByteBuffer.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/Codable+ByteBuffer.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/Codable+ByteBuffer~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOFoundationCompat/JSONSerialization+ByteBuffer.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/JSONSerialization+ByteBuffer.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/JSONSerialization+ByteBuffer.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/JSONSerialization+ByteBuffer.dia",
+    "index-unit-output-path" : "/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/JSONSerialization+ByteBuffer.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/JSONSerialization+ByteBuffer.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/JSONSerialization+ByteBuffer.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/JSONSerialization+ByteBuffer.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/JSONSerialization+ByteBuffer~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/NIOFoundationCompat/WaitSpinningRunLoop.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/WaitSpinningRunLoop.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/WaitSpinningRunLoop.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/WaitSpinningRunLoop.dia",
+    "index-unit-output-path" : "/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/WaitSpinningRunLoop.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/WaitSpinningRunLoop.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/WaitSpinningRunLoop.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/WaitSpinningRunLoop.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOFoundationCompat.build/Objects-normal/arm64/WaitSpinningRunLoop~partial.swiftmodule"
+  }
+}

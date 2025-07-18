@@ -1,0 +1,68 @@
+{
+  "" : {
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/HeapModule-master.dia",
+    "emit-module-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/HeapModule-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/HeapModule-master-emit-module.dia",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/HeapModule-master.swiftdeps"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-collections/Sources/HeapModule/Heap+Descriptions.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Descriptions.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Descriptions.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Descriptions.dia",
+    "index-unit-output-path" : "/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Descriptions.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Descriptions.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Descriptions.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Descriptions.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Descriptions~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-collections/Sources/HeapModule/Heap+ExpressibleByArrayLiteral.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+ExpressibleByArrayLiteral.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+ExpressibleByArrayLiteral.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+ExpressibleByArrayLiteral.dia",
+    "index-unit-output-path" : "/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+ExpressibleByArrayLiteral.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+ExpressibleByArrayLiteral.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+ExpressibleByArrayLiteral.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+ExpressibleByArrayLiteral.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+ExpressibleByArrayLiteral~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-collections/Sources/HeapModule/Heap+Invariants.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Invariants.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Invariants.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Invariants.dia",
+    "index-unit-output-path" : "/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Invariants.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Invariants.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Invariants.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Invariants.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+Invariants~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-collections/Sources/HeapModule/Heap+UnsafeHandle.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+UnsafeHandle.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+UnsafeHandle.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+UnsafeHandle.dia",
+    "index-unit-output-path" : "/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+UnsafeHandle.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+UnsafeHandle.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+UnsafeHandle.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+UnsafeHandle.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap+UnsafeHandle~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-collections/Sources/HeapModule/Heap.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap.dia",
+    "index-unit-output-path" : "/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/Heap~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-collections/Sources/HeapModule/_HeapNode.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/_HeapNode.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/_HeapNode.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/_HeapNode.dia",
+    "index-unit-output-path" : "/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/_HeapNode.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/_HeapNode.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/_HeapNode.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/_HeapNode.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/HeapModule.build/Objects-normal/arm64/_HeapNode~partial.swiftmodule"
+  }
+}

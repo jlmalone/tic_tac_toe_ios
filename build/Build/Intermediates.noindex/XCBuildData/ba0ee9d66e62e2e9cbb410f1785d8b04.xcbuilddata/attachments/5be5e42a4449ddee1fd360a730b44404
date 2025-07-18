@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/secp256k1-master.dia",
+    "emit-module-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/secp256k1-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/secp256k1-master-emit-module.dia",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/secp256k1-master.swiftdeps"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/secp256k1.swift/secp256k1/Classes/exporter/Exporter.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/Exporter.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/Exporter.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/Exporter.dia",
+    "index-unit-output-path" : "/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/Exporter.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/Exporter.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/Exporter.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/Exporter.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/secp256k1.build/Debug-iphonesimulator/secp256k1.build/Objects-normal/arm64/Exporter~partial.swiftmodule"
+  }
+}

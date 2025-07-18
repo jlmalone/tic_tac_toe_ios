@@ -1,0 +1,18 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldBasedFrameDecoder.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldBasedFrameDecoder.o"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldBasedFrameDecoder.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldBasedFrameDecoder.d"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldBasedFrameDecoder.swiftconstvalues"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldBasedFrameDecoder.swiftdeps"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-extras/Sources/NIOExtras/LineBasedFrameDecoder.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LineBasedFrameDecoder.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LineBasedFrameDecoder.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LineBasedFrameDecoder.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LineBasedFrameDecoder.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LineBasedFrameDecoder.dia"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldPrepender.swift":
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldPrepender.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldPrepender.dia"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldPrepender.d"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldPrepender.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-nio-extras.build/Debug-iphonesimulator/NIOExtras.build/Objects-normal/arm64/LengthFieldPrepender.swiftconstvalues"

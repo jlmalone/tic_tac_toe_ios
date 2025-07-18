@@ -1,0 +1,68 @@
+{
+  "" : {
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/tic_tac_toe_ios_ethereum-master.dia",
+    "emit-module-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/tic_tac_toe_ios_ethereum-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/tic_tac_toe_ios_ethereum-master-emit-module.dia",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/tic_tac_toe_ios_ethereum-master.swiftdeps"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/BlockchainService.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/BlockchainService.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/BlockchainService.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/BlockchainService.dia",
+    "index-unit-output-path" : "/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/BlockchainService.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/BlockchainService.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/BlockchainService.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/BlockchainService.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/BlockchainService~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/ContentView.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/DeploymentAddress.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/DeploymentAddress.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/DeploymentAddress.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/DeploymentAddress.dia",
+    "index-unit-output-path" : "/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/DeploymentAddress.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/DeploymentAddress.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/DeploymentAddress.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/DeploymentAddress.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/DeploymentAddress~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/Theme.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/Theme.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/Theme.dia",
+    "index-unit-output-path" : "/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/Theme.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/Theme.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/Theme.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/Theme.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/Theme~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/tic_tac_toe_ios_ethereum/TicTacToeiOSApp.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/TicTacToeiOSApp.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/TicTacToeiOSApp.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/TicTacToeiOSApp.dia",
+    "index-unit-output-path" : "/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/TicTacToeiOSApp.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/TicTacToeiOSApp.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/TicTacToeiOSApp.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/TicTacToeiOSApp.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/tic_tac_toe_ios_ethereum.build/Debug-iphonesimulator/tic_tac_toe_ios_ethereum.build/Objects-normal/arm64/TicTacToeiOSApp~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-master.dia",
+    "emit-module-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-master-emit-module.dia",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-master.swiftdeps"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-collections/Sources/Collections/Collections.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-6a0fc04d253d2c276701fb4307b20860.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-6a0fc04d253d2c276701fb4307b20860.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-6a0fc04d253d2c276701fb4307b20860.dia",
+    "index-unit-output-path" : "/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-6a0fc04d253d2c276701fb4307b20860.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-6a0fc04d253d2c276701fb4307b20860.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-6a0fc04d253d2c276701fb4307b20860.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-6a0fc04d253d2c276701fb4307b20860.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/Collections.build/Objects-normal/arm64/Collections-6a0fc04d253d2c276701fb4307b20860~partial.swiftmodule"
+  }
+}

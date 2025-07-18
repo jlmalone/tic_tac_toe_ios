@@ -1,0 +1,18 @@
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Prime Test.swift":
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Prime Test.o"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Prime Test.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Prime Test.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Prime Test.swiftdeps"
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Prime Test.dia"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Multiplication.swift":
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Multiplication.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Multiplication.swiftconstvalues"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Multiplication.o"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Multiplication.d"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Multiplication.swiftdeps"
+"/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/BigInt/Sources/Integer Conversion.swift":
+  diagnostics: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Integer Conversion.dia"
+  const-values: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Integer Conversion.swiftconstvalues"
+  dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Integer Conversion.d"
+  object: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Integer Conversion.o"
+  swift-dependencies: "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/BigInt.build/Debug-iphonesimulator/BigInt.build/Objects-normal/arm64/Integer Conversion.swiftdeps"

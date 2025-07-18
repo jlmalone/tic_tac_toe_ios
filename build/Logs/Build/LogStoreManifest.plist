@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>45D3930C-C2D8-4192-830F-7CD3AB6C86EF</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>45D3930C-C2D8-4192-830F-7CD3AB6C86EF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>tic_tac_toe_ios_ethereum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>tic_tac_toe_ios_ethereum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project tic_tac_toe_ios_ethereum with scheme tic_tac_toe_ios_ethereum</string>
+			<key>timeStartedRecording</key>
+			<real>769814696.68384802</real>
+			<key>timeStoppedRecording</key>
+			<real>769814720.47676802</real>
+			<key>title</key>
+			<string>Cleaning project tic_tac_toe_ios_ethereum with scheme tic_tac_toe_ios_ethereum</string>
+			<key>uniqueIdentifier</key>
+			<string>45D3930C-C2D8-4192-830F-7CD3AB6C86EF</string>
+		</dict>
+		<key>95688C20-5488-4B28-AF24-7D400429B725</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>95688C20-5488-4B28-AF24-7D400429B725.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>tic_tac_toe_ios_ethereum project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>tic_tac_toe_ios_ethereum</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project tic_tac_toe_ios_ethereum with scheme tic_tac_toe_ios_ethereum</string>
+			<key>timeStartedRecording</key>
+			<real>772495099.52127504</real>
+			<key>timeStoppedRecording</key>
+			<real>772495106.63214195</real>
+			<key>title</key>
+			<string>Cleaning project tic_tac_toe_ios_ethereum with scheme tic_tac_toe_ios_ethereum</string>
+			<key>uniqueIdentifier</key>
+			<string>95688C20-5488-4B28-AF24-7D400429B725</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

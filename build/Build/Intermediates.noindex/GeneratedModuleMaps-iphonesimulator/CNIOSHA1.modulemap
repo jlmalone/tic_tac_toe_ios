@@ -1,0 +1,4 @@
+module CNIOSHA1 {
+umbrella header "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+export *
+}

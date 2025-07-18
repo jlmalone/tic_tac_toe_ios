@@ -1,0 +1,4 @@
+module Web3 {
+header "Web3-Swift.h"
+export *
+}

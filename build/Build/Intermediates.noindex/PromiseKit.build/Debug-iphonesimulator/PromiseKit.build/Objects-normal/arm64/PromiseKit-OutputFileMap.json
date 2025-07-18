@@ -1,0 +1,178 @@
+{
+  "" : {
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/PromiseKit-master.dia",
+    "emit-module-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/PromiseKit-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/PromiseKit-master-emit-module.dia",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/PromiseKit-master.swiftdeps"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Async.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Async.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Async.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Async.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Async.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Async.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Async.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Async.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Async~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Box.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Box.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Box.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Box.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Box.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Box.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Box.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Box.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Box~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Catchable.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Catchable.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Catchable.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Catchable.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Catchable.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Catchable.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Catchable.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Catchable.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Catchable~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Combine.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Combine.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Combine.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Combine.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Combine.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Combine.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Combine.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Combine.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Combine~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Configuration.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Configuration.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Configuration.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Configuration.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Configuration.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Configuration.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Configuration.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Configuration.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Configuration~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/CustomStringConvertible.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/CustomStringConvertible.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/CustomStringConvertible.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/CustomStringConvertible.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/CustomStringConvertible.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/CustomStringConvertible.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/CustomStringConvertible.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/CustomStringConvertible.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/CustomStringConvertible~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Error.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Error.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Error.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Error.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Error.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Error.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Error.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Error.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Error~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Guarantee.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Guarantee.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Guarantee.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Guarantee.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Guarantee.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Guarantee.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Guarantee.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Guarantee.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Guarantee~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/LogEvent.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/LogEvent.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/LogEvent.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/LogEvent.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/LogEvent.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/LogEvent.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/LogEvent.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/LogEvent.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/LogEvent~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Promise.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Promise.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Promise.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Promise.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Promise.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Promise.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Promise.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Promise.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Promise~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Resolver.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Resolver.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Resolver.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Resolver.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Resolver.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Resolver.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Resolver.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Resolver.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Resolver~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/Thenable.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Thenable.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Thenable.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Thenable.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Thenable.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Thenable.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Thenable.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Thenable.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/Thenable~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/after.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/after.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/after.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/after.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/after.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/after.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/after.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/after.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/after~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/firstly.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/firstly.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/firstly.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/firstly.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/firstly.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/firstly.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/firstly.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/firstly.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/firstly~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/hang.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/hang.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/hang.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/hang.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/hang.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/hang.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/hang.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/hang.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/hang~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/race.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/race.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/race.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/race.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/race.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/race.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/race.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/race.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/race~partial.swiftmodule"
+  },
+  "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/SourcePackages/checkouts/PromiseKit/Sources/when.swift" : {
+    "const-values" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/when.swiftconstvalues",
+    "dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/when.d",
+    "diagnostics" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/when.dia",
+    "index-unit-output-path" : "/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/when.o",
+    "llvm-bc" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/when.bc",
+    "object" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/when.o",
+    "swift-dependencies" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/when.swiftdeps",
+    "swiftmodule" : "/Users/josephmalone/ios_code/tic_tac_toe_ios_ethereum/build/Build/Intermediates.noindex/PromiseKit.build/Debug-iphonesimulator/PromiseKit.build/Objects-normal/arm64/when~partial.swiftmodule"
+  }
+}
